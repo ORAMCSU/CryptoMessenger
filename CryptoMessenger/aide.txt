@@ -1,0 +1,65 @@
+•	Qu’est-ce que CryptoMessenger ?
+
+CryptoMessenger est un programme de communication sécurisé permettant d’échanger avec un groupe de personnes connectées sur un même serveur. Les utilisateurs cryptent les messages (ou non) avant de les envoyer aux autres.
+
+
+•	Comment se connecter ?
+
+Un des utilisateurs du groupe doit lancer le programme Serveur.py à l’aide de Python.
+Lancez le programme Cryptomessenger.py à l’aide de Python ou Edupython. Entrez l’adresse IP de l’ordinateur qui héberge le serveur dans la zone de texte dédiée ou sélectionnez en une précédemment utilisée dans l’historique des IP. Entrez votre nom, 2 nombres premiers différents entre 100 et 1000, puis le port utilisé (33 000 par défaut).
+
+
+•	Comment trouver l’adresse IP de l’ordinateur ?
+
+Lancez l’invite de commande et tapez ipconfig.
+L’adresse IP s’affiche dans une liste (Adresse IPv4).
+
+
+•	Comment envoyer un message ?
+
+Pour envoyer un message non crypté, écrivez le message dans la barre de texte dans la zone Messages Codés et appuyez sur la touche ENTRER. 
+Le message est envoyé en clair et s’affiche dans la zone de réception des "Messages codés".
+
+
+•	Comment envoyer un message crypté ?
+
+Envoyer un message crypté se fait en 2 étapes:
+
+Vous pouvez pour commencer, envoyer en clair le nom de la personne à qui est destiné le message.
+
+o	Envoi du message : Tapez le message à envoyer dans la barre de texte dans la zone "Messages codés". 
+	Sélectionnez ensuite DES dans la liste des méthodes de cryptage. 
+	Tapez votre clef dans la zone définie, puis cliquez sur le bouton Crypter/Envoyer. 
+	Le message est envoyé en crypté (Hexadécimal) et s’affiche dans la zone de réception des messages codés.
+o	Envoi de la clef : Tapez la clef que vous avez précédemment utilisé dans la barre de texte dans la zone Messages codés. 
+	Sélectionnez ensuite RSA dans la liste des méthodes de cryptage. 
+	Tapez la clef publique de la personne à qui s’adresse le message (ne pas oublier les parenthèses), que vous trouvez à côté de son nom, puis 
+	cliquez sur le bouton Crypter/Envoyer. 
+	La clef est envoyée en crypté (Chiffres) et s’affiche dans la zone de réception des Messages codés.
+
+
+•	Comment décrypter un message reçu ?
+
+Décrypter un message se fait en 2 étapes.
+
+o	Décryptage de la clef : Appuyez sur Transférer pour déplacer le dernier message reçu (clef cryptée) dans la barre de texte de la zone 
+	"Messages décodés". 
+	Vous pouvez aussi le faire manuellement pour des messages et clefs reçus précédemment. 
+	Sélectionnez ensuite RSA dans la liste des méthodes de décryptage, puis cliquez sur le bouton Décrypter. 
+	La clef claire s’affiche dans la zone de réception des Messages décodés et dans la zone définie pour la clef.
+o	Décryptage du message : Copiez/Collez le message crypté dans la barre de texte dans la zone Messages décodés. 
+	Sélectionnez ensuite DES dans la liste des méthodes de décryptage, puis cliquez sur le bouton Décrypter. 
+	La clef est déjà entrée dans la zone définie précédemment. 
+	Le message clair s’affiche dans la zone de réception des Messages décodés.
+
+
+•	Comment passer en plein écran ?
+
+Appuyez sur le bouton destiné : Plein Ecran pour passer en plein écran complet.
+Appuyez sur Echap pour sortir du mode plein écran.
+
+
+•	Comment quitter le programme ?
+Appuyez sur le bouton destiné : Quitter.
+
+
