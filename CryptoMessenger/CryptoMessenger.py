@@ -555,7 +555,7 @@ invalid_q.grid(row=9,column=1)
 # Bouton de sélection de l'adresse choisie dans l'historique
 Historic_slt = Button(accueil, text = "Sélectionner",font=("Ubuntu", "12"), command = select_host, relief= 'groove', bg='#58FA58')
 Historic_slt.grid(row=6,column=2, rowspan = 2, padx= '10p', pady= '3p', sticky = W+E)
-hub
+
 
 # Bouton de suppression de l'adresse choisie dans l'historique
 Historic_sup = Button(accueil, text = "Supprimer", font=("Ubuntu", "12"), command = sup_host, relief= 'groove', bg='#FE2E2E')
