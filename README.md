@@ -1,1 +1,1 @@
-﻿CryptoMessenger is not up to date yet
+﻿CryptoMessenger is not up to date yet!
